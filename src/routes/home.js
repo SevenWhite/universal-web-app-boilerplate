@@ -3,7 +3,7 @@ const getString = require('../client/client.index');
 
 const router = new Router();
 
-router.get('/', async function(ctx, next) {
+router.get('/*', async function(ctx, next) {
 	const {context, html} = getString(ctx);
 	if (context.url) {
 		ctx.redirect(context.url);

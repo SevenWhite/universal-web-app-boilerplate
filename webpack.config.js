@@ -19,7 +19,8 @@ module.exports = {
 	},
 	externals: {
 		'react': 'React',
-		'react-dom': 'ReactDOM'
+		'react-dom': 'ReactDOM',
+		'react-router-dom': 'ReactRouterDOM'
 	},
 	target: 'web'
 };

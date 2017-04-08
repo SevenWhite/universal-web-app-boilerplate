@@ -1,0 +1,17 @@
+{
+  "name": "universal-web-app-boilerplate",
+  "version": "1.0.0",
+  "description": "universal web app boilerplate",
+  "main": "src/bin/start.js",
+  "repository": "git@github.com:SevenWhite/universal-web-app-boilerplate.git",
+  "author": "sevenwhite <alum.777.leo@gmail.com>",
+  "scripts": {
+    "start": "node ./src/bin/start.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-ejs": "^4.0.0",
+    "koa-router": "next"
+  }
+}
